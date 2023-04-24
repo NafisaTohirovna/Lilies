@@ -68,8 +68,10 @@
 }
 
 .login {
+  border: 1px solid red;
   display: flex;
   align-items: center;
+  height: 100vh;
 }
 .login div {
   flex: 1;
@@ -121,6 +123,7 @@
   align-items: center;
   justify-content: space-between;
   display: inline-block;
+  height: 100px;
 }
 .login .signUp-registar .pass a {
   font-family: "Poppins";
