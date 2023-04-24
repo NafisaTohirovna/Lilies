@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteyner {
+  position: relative;
+  max-width: 1440px;
+  height: 900px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.menu {
+  position: absolute;
+  width: 320px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+  background: #FBFBFB;
+  border-radius: 20px;
+}
+
+.menu_logo_img {
+  position: absolute;
+  height: 67px;
+  width: 57.4751358032px;
+  left: 59.1px;
+  top: 113px;
+  border-radius: 0px;
+}
+
+.menu_logo_text {
+  position: absolute;
+  width: 92px;
+  height: 50px;
+  left: 136px;
+  top: 125px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 50px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #00302E;
+}
+
+.dashboard {
+  position: absolute;
+  width: 267px;
+  height: 50px;
+  left: 26px;
+  top: 296px;
+  background: #EFEFEF;
+  border-radius: 12px;
+}
+
+.dashboard img {
+  position: absolute;
+  left: 16.48px;
+  top: 12.32px;
+  border-radius: 0px;
+}
+
+.dashboard p {
+  position: absolute;
+  width: 106px;
+  height: 15px;
+  left: 54px;
+  top: 12.32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.your_profil {
+  position: absolute;
+  width: 267px;
+  height: 50px;
+  left: 26px;
+  top: 361px;
+  background-color: #FBFBFB;
+  border: none;
+}
+
+.your_profil img {
+  height: 20.0000133514px;
+  width: 20.0000133514px;
+  position: absolute;
+  left: 16.48px;
+  top: 12.32px;
+}
+
+.your_profil p {
+  position: absolute;
+  width: 116px;
+  height: 15px;
+  left: 54px;
+  top: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+
+.orders{
+  position: absolute;
+  width: 267px;
+  height: 50px;
+  left: 26px;
+  top: 431px;
+  background-color: #FBFBFB;
+  border: none;
+}
+
+.orders img {
+  height: 19.6385154724px;
+  width: 16px;
+  position: absolute;
+  left: 16.48px;
+  top: 12.32px;
+}
+
+.orders p {
+  position: absolute;
+  width: 74px;
+  height: 24px;
+  left: 54px;
+  top: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #707070;
+}/*# sourceMappingURL=help.css.map */
+
+
+.your_cart{
+  position: absolute;
+  width: 267px;
+  height: 50px;
+  left: 26px;
+  top: 500px;
+  background-color: #FBFBFB;
+  border: none;
+}
+
+.your_cart img{
+  height: 19.63851547241211px;
+  width: 16px;
+  position: absolute;
+  left: 16.48px;
+  top: 12.32px;
+}
+
+.your_cart p{
+  position: absolute;
+  width: 107px;
+  height: 15px;
+  left: 54px;
+  top: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #707070;
+}
+
+.list{
+  position: absolute;
+  left: 320px;
+  top: 0;
+}
+
+.list_flex_text h1{
+  position: absolute;
+  width: 358px;
+  height: 33px;
+  left: 68px;
+  top: 139px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 33px;
+  /* identical to box height, or 143% */
+
+
+  color: #00302E;
+}
+
+.list_flex_text p{
+  position: absolute;
+  width: 309px;
+  height: 33px;
+  left: 70px;
+  top: 176px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 33px;
+  /* identical to box height, or 236% */
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.69);
+}
+
+.list_flex img{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 999px;
+  top: 147px;
+
+  border-radius: 50px;
+}
+
+.list_foods{
+  position: absolute;
+  width: 1120px;
+  top: 262px;
+  left: 0px;
+}
+
+
+.list_foods_box{
+  width: 240px;
+  height: 257px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+}
+
+.list_foods_box div:nth-child(1){
+   height: 173px;
+   width: 100%;
+}
+
+.list_foods_box div:nth-child(1) img{
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+}
+
+.list_foods_box div:nth-child(1) h1{
+  width: 100%;
+  height: 33px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 33px;
+  /* identical to box height, or 194% */
+
+
+  color: #00302E;
+}
+
+.list_foods_box div:nth-child(1) p{
+  width: 172px;
+  margin: 0 auto;
+  height: 42px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 21px;
+  /* or 191% */
+  color: rgba(0, 0, 0, 0.69);
+}
+
+.list_foods_box div:nth-child(2){
+  height: 78px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list_foods_box div:nth-child(2) p{
+  width: 68px;
+  height: 33px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 33px;
+  /* identical to box height, or 254% */
+  
+  color: #00302E;
+}
+
+.list_foods_box div:nth-child(2) button{
+  width: 93px;
+  height: 33px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 33px;
+  /* identical to box height, or 254% */
+  border: none;
+  background-color: #ffffff;
+  color: #06E775;
+}
+
+.list_foods_box:nth-child(1){
+  top: 53px;
+  left: 68px;
+}
+
+.list_foods_box:nth-child(2){
+  top: 53px;
+  left: 426px;
+}
+
+.list_foods_box:nth-child(3){
+  top: 53px;
+  left: 784px;
+}
+
+.list_foods_box:nth-child(4){
+  top: 388px;
+  left: 68px;
+}
+
+.list_foods_box:nth-child(5){
+  top: 388px;
+  left: 426px;
+}
+
+.list_foods_box:nth-child(6){
+  top: 388px;
+  left: 784px;
+}
+
+
+
+@media only screen and (max-width: 1030px){
+  .conteyner{
+    width: 970px;
+  }
+
+  .list_flex img{
+    left: 570px;
+  }
+
+  .list_foods{
+    width: 650px;
+  }
+
+  .list_foods_box:nth-child(3){
+    top: 388px;
+    left: 68px;
+  }
+
+  .list_foods_box:nth-child(4){
+    top: 388px;
+    left: 426px;
+  }
+
+  .list_foods_box:nth-child(5){
+    top: 695px;
+    left: 68px;
+  }
+
+  .list_foods_box:nth-child(6){
+    top: 695px;
+    left: 426px;
+  }
+
+  .menu{
+    height: 1200px;
+  }
+}
+
+@media only screen and (max-width:800px){
+    .list_flex img{
+      left: 70px;
+      top: 220px;
+    }
+
+    .list_foods{
+      top: 320px;
+    }
+  
+    .list_foods_box:nth-child(2){
+      top: 388px;
+      left: 68px;
+    }
+
+    .list_foods_box:nth-child(3){
+      top: 695px;
+      left: 68px;
+    }
+
+    .list_foods_box:nth-child(4){
+      left: 68px;
+      top: 1002px;
+    }
+
+    .list_foods_box:nth-child(5){
+      left: 68px;
+      top: 1309px;
+    }
+
+    .list_foods_box:nth-child(6){
+      left: 68px;
+      top: 1616px;
+    }
+
+    .conteyner{
+      width: 770px;
+    }
+
+    .menu{
+      height: 2200px;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .conteyner{
+      width: 400px;
+    }
+
+    .menu{
+      height: 700px;
+    }
+
+    .list_flex_text h1{
+       top: 750px;
+       left: -320px;
+    }
+
+    .list_flex_text p{
+      top: 780px;
+      left: -320px;
+    }
+
+    .list_flex img{
+      left: -320px;
+      top: 820px;
+    }
+
+    .list_foods{
+      top: 850px;
+      left: -320px;
+    }
+
+    .menu{
+      top: 40px;
+    }
+}

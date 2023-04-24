@@ -58,7 +58,7 @@ header .header-wrap nav ul li a {
 header .header-wrap nav ul li:hover a {
   color: #FBDDBB;
 }
-header .header-wrap nav ul li button {
+header .header-wrap nav ul li .button {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
